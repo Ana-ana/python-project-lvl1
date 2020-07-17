@@ -4,4 +4,5 @@
 
 [![Build Status](https://travis-ci.com/Ana-ana/python-project-lvl1.svg?branch=master)](https://travis-ci.com/Ana-ana/python-project-lvl1)
 
+<a href="https://asciinema.org/a/t2kd6zMPAyOnOzyE1jALwqLVR" target="_blank"><img src="https://asciinema.org/a/t2kd6zMPAyOnOzyE1jALwqLVR.svg" /></a>
 
