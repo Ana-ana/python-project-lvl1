@@ -4,10 +4,10 @@ from random import randint
 
 def main():
     print('Welcome to the Brain Games!')
-    print('Answer \"yes\" if number even otherwise answer \"no\".')
+    print('Answer "yes" if number even otherwise answer "no".')
     print('')
     name = prompt.string('May I have your name? ')
-    print('Hello,', name + "!")
+    print(f'Hello, {name}!')
     print('')
     y = 0
     for i in range(3):
@@ -21,13 +21,9 @@ def main():
             if y == 3:
                 print('Congratulations,', name + '!')
         else:
-            print('\'yes\' is wrong answer ;(. Correct answer was \'no\'.')
+            print('"yes" is wrong answer ;(. Correct answer was "no".')
             print('Let\'s try again,', name + '!')
             break
-
-
-if __name__ == '__main__':
-    main()
 
 
 def check_even(number):
@@ -35,3 +31,7 @@ def check_even(number):
         return 'yes'
     else:
         return 'no'
+
+
+if __name__ == '__main__':
+    main()
