@@ -52,4 +52,3 @@ def correct():
 
 def uncorrect(result, answer):
     print(answer, " is wrong answer ;(. Correct answer was ", result)
-
