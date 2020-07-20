@@ -52,3 +52,10 @@ def correct():
 
 def uncorrect(result, answer):
     print(answer, " is wrong answer ;(. Correct answer was ", result)
+
+
+def check_even(number):
+    if number % 2 == 0:
+        return 'yes'
+    else:
+        return 'no'
