@@ -8,7 +8,7 @@ def main():
     print('')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print('')
+    print()
     y = 0
     for i in range(3):
         cheking_num = randint(0, 1000)
