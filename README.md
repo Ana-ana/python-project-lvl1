@@ -22,7 +22,9 @@ Installing package brain-calc:
 <a href="https://asciinema.org/a/zpyz5WeydosC7XiZ9RCLczykx" target="_blank"><img src="https://asciinema.org/a/zpyz5WeydosC7XiZ9RCLczykx.svg" /></a>
 
 Positive brain-calc:
+
 <a href="https://asciinema.org/a/KIIX0KANuTEYD8EIKkv0t5dm8" target="_blank"><img src="https://asciinema.org/a/KIIX0KANuTEYD8EIKkv0t5dm8.svg" /></a>
 
 Negative brain-calc:
+
 <a href="https://asciinema.org/a/DnPAigPySgrWIr8KCSaRfVuzh" target="_blank"><img src="https://asciinema.org/a/DnPAigPySgrWIr8KCSaRfVuzh.svg" /></a>
