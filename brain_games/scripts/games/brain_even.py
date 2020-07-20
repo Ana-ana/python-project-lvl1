@@ -14,17 +14,17 @@ def main():
         cheking_num = randint(0, 1000)
         print('Question:', cheking_num)
         answer = prompt.string('Your answer :')
-        if check_even(cheking_num) == answer:
+        result = check_even(cheking_num)
+        if result == answer:
             print('Correct!')
             print('')
             y += 1
             if y == 3:
                 print('Congratulations,', name + '!')
         else:
-            print(answer, ' is wrong answer ;(. Correct answer was ', check_even(cheking_num) )
+            print(answer, ' is wrong answer ;(. Correct answer was ', result)
             print('Let\'s try again,', name + '!')
             break
-
 
 
 if __name__ == '__main__':
