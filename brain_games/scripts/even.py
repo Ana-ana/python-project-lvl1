@@ -2,7 +2,6 @@ from random import randint
 from brain_games.scripts.counts import check_even
 
 
-#  DESCRIPION = 'Answer "yes" if number even otherwise answer "no".'
 def DESCRIPION():
     return 'Answer "yes" if number even otherwise answer "no".'
 

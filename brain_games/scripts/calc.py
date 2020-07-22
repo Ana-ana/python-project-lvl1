@@ -1,10 +1,8 @@
-#  from operator import mul, sub, add
 import operator
 from random import randint
 from random import choice
 
 
-#  DESCRIPION = "What is the result of the expression?"
 def DESCRIPION():
     return 'What is the result of the expression?'
 
