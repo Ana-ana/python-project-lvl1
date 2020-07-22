@@ -6,7 +6,7 @@ def run():
     num1 = randint(0, 1000)
     num2 = randint(0, 1000)
     question = str(num1) + ' ' + str(num2)
-    result = gcd(num1, num2)
+    result = str(gcd(num1, num2))
     return question, result
 
 
