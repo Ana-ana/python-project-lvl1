@@ -29,3 +29,16 @@ Positive brain-calc:
 Negative brain-calc:
 
 <a href="https://asciinema.org/a/DnPAigPySgrWIr8KCSaRfVuzh" target="_blank"><img src="https://asciinema.org/a/DnPAigPySgrWIr8KCSaRfVuzh.svg" /></a>
+________________________________________________________________
+
+Installing brain-progression:
+
+<a href="https://asciinema.org/a/7x2KlZbTlNObbTLGIf3iR3Iuj" target="_blank"><img src="https://asciinema.org/a/7x2KlZbTlNObbTLGIf3iR3Iuj.svg" /></a>
+
+Positive brain-progression:
+
+<a href="https://asciinema.org/a/VGGEPPY7IOO2Q5y1O3DaGA36h" target="_blank"><img src="https://asciinema.org/a/VGGEPPY7IOO2Q5y1O3DaGA36h.svg" /></a>
+
+Negative brain-progression:
+
+<a href="https://asciinema.org/a/Y7OVr4BPlfJLB3MdfNFGxuCQ6" target="_blank"><img src="https://asciinema.org/a/Y7OVr4BPlfJLB3MdfNFGxuCQ6.svg" /></a>
