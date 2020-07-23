@@ -8,6 +8,6 @@ def DESCRIPION():
 
 def run():
     cheking_num = randint(0, 1000)
-    question = 'Question: ' + str(cheking_num)
+    question = str(cheking_num)
     result = check_even(cheking_num)
     return question, result
