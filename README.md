@@ -48,9 +48,11 @@ _________________________________________________________________
 Installing package brain-prime:
 
 <a href="https://asciinema.org/a/qBshyNABh47BEouhwwGUbm99q" target="_blank"><img src="https://asciinema.org/a/qBshyNABh47BEouhwwGUbm99q.svg" /></a>
+
 Positive brain-prime:
 
 <a href="https://asciinema.org/a/ItTBp6HdCs1r4PCfzPxqnTomI" target="_blank"><img src="https://asciinema.org/a/ItTBp6HdCs1r4PCfzPxqnTomI.svg" /></a>
+
 Negative brain-prime:
 
 <a href="https://asciinema.org/a/MgWtv0vx9mZ0Lod84sKa52VDy" target="_blank"><img src="https://asciinema.org/a/MgWtv0vx9mZ0Lod84sKa52VDy.svg" /></a>
