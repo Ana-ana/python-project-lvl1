@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "Ana-ana_brain_games"
-version = "0.9.0"
-description = ""
+version = "0.9.1"
+description = "Few games to warm up your brain"
 authors = ["Ana-ana"]
+repository = "https://github.com/Ana-ana/python-project-lvl1"
 packages = [
   { include = "brain_games" },
 ]
