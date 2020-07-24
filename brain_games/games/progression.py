@@ -21,3 +21,4 @@ def run():
 
 def DESCRIPTION():
     return 'What number is missing in the progression?'
+
