@@ -1,10 +1,8 @@
 import operator
-from random import randint
-from random import choice
+from random import randint, choice
 
 
-def DESCRIPION():
-    return 'What is the result of the expression?'
+DESCRIPION = 'What is the result of the expression?'
 
 
 def run():
@@ -16,8 +14,7 @@ def run():
     }
     num1 = randint(0, 100)
     num2 = randint(0, 100)
-    oper = list(operators.keys())
-    operation = choice(oper)
-    question = str(num1) + ' ' + str(operation) + ' ' + str(num2)
-    result = str(operators[operation](num1, num2))
+    operation = choice(list(operators.keys()))
+    question = f'{num1} {operation} {num2}'
+    result = operators[operation](num1, num2)
     return question, result

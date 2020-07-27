@@ -1,13 +1,19 @@
 from random import randint
-from brain_games.scripts.counts import check_even
 
 
-def DESCRIPION():
-    return 'Answer "yes" if number even otherwise answer "no".'
+DESCRIPION = 'Answer "yes" if number even otherwise answer "no".'
 
 
 def run():
     cheking_num = randint(0, 1000)
-    question = str(cheking_num)
+    question = cheking_num
     result = check_even(cheking_num)
     return question, result
+
+
+def check_even(number):
+    """Checks whether number is even"""
+    if number % 2 == 0:
+        return "yes"
+    else:
+        return "no"

@@ -1,24 +1,22 @@
 import prompt
 
 
-def game_launcher(run, DESCRIPION):
+def game_launcher(game):
     print('Welcome to the Brain Games!')
     print()
-    print(DESCRIPION())
+    print(game.DESCRIPION)
     name = prompt.string('May I have your name?')
     print(f'Hello, {name}!')
     print()
-    y = 0
-    for i in range(3):
-        question, result = run()
-        print(question)
-        answer = prompt.string('Your answer :')
-        if result == answer:
+    GAME_ROUNDS = 3
+    for _ in range(GAME_ROUNDS):
+        question, result = game.run()
+        print(f'Question: {question}')
+        answer = prompt.string('Your answer: ')
+        if str(result) == answer:
             print('Correct!')
-            y += 1
-            if y == 3:
-                print('Congratulations, ', name, "!")
         else:
-            print(answer, " is wrong answer ;(. Correct answer was ", result)
-            print("Let's try again, ", name, "!")
-            break
+            print(answer, ' is wrong answer ;(. Correct answer was ', result)
+            print(f"Let's try again, {name}!")
+            return
+    print(f'Congratulations, {name}!')
