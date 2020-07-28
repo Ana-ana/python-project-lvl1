@@ -4,16 +4,15 @@ from random import randint
 DESCRIPION = 'Answer "yes" if number even otherwise answer "no".'
 
 
-def run():
-    cheking_num = randint(0, 1000)
-    question = cheking_num
-    result = check_even(cheking_num)
+def generate_round():
+    question = randint(0, 1000)
+    result = check_even(question)
     return question, result
 
 
 def check_even(number):
     """Checks whether number is even"""
     if number % 2 == 0:
-        return "yes"
+        return 'yes'
     else:
-        return "no"
+        return 'no'

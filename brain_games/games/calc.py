@@ -5,7 +5,7 @@ from random import randint, choice
 DESCRIPION = 'What is the result of the expression?'
 
 
-def run():
+def generate_round():
     """Function to play calculation game"""
     operators = {
         '+': operator.add,
