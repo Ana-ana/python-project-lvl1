@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "Ana-ana_brain_games"
-version = "0.9.6"
+version = "0.9.7"
 description = "Few games to warm up your brain"
 authors = ["Ana-ana"]
 repository = "https://github.com/Ana-ana/python-project-lvl1"
