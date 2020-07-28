@@ -14,6 +14,5 @@ def generate_round():
         progression.append(begin + step * i)
     result = begin + step * secret
     progression[secret] = '..'
-    print('result is ', result)
     question = ', '.join(str(num) for num in progression)
     return question, result
