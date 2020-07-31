@@ -16,5 +16,5 @@ def generate_round():
     num2 = randint(0, 100)
     operation = choice(list(operators.keys()))
     question = f'{num1} {operation} {num2}'
-    result = operators[operation](num1, num2)
+    result = str(operators[operation](num1, num2))
     return question, result

@@ -6,13 +6,17 @@ DESCRIPION = 'Answer "yes" if number even otherwise answer "no".'
 
 def generate_round():
     question = randint(0, 1000)
-    result = check_even(question)
+    result = ''
+    if is_even(question):
+        result = 'yes'
+    else:
+        result = 'no'
     return question, result
 
 
-def check_even(number):
+def is_even(number):
     """Checks whether number is even"""
     if number % 2 == 0:
-        return 'yes'
+        return True
     else:
-        return 'no'
+        return False
