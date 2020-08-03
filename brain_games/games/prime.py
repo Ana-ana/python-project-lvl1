@@ -7,10 +7,7 @@ DESCRIPION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def generate_round():
     question = randint(1, 11)
-    if is_prime(question):
-        result = 'yes'
-    else:
-        result = 'no'
+    result = 'yes' if is_prime(question) else 'no'
     return question, result
 
 
