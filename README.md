@@ -57,3 +57,43 @@ Negative brain-prime:
 
 <a href="https://asciinema.org/a/MgWtv0vx9mZ0Lod84sKa52VDy" target="_blank"><img src="https://asciinema.org/a/MgWtv0vx9mZ0Lod84sKa52VDy.svg" /></a>
 
+
+
+Список команд для скачивания приложения:
+- создание окружения 
+  python3 -m venv test_even
+- проверить версию пип 
+  python3 -m pip --version
+- если pip ниже 19 версии, необходимо его обновить 
+  python3 -m pip install --upgrade --user pip
+- Установка пакета из Test Pypiс зависимостями promt(необходимы в поекте и отсутствут в Test Pypi) 
+  python3 -m pip install --user --index-url https://test.pypi.org/simple/ ana-ana-brain-games --extra-index-url https://pypi.org/simple/ prompt
+* если не сработала команда выше можно вручную указать последнюю версию приложени(перед установко проверить https://test.pypi.org/project/ana-ana-brain-games/) и ее установить
+  pip install -i https://test.pypi.org/simple/ ana-ana-brain-games==0.9.8 
+  
+  
+  
+Создание окружения для разработки.
+- Установка зависимостей:
+poetry install
+
+- Тесты:
+make test
+
+- Проверка кода линтером Flake8:
+make lint
+
+- Установка репозитория:
+poetry config repositories.{login}_brain_games https://test.pypi.org/legacy/
+
+- Установка доступа к репозиторию:
+poetry config http-basic.{login}_brain_games {login} {password}
+
+- Сборка пакета:
+poetry build
+
+- Публикация пакета:
+poetry publish -r {login}_brain_games
+
+- Загрузка опубликованного пакета:
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple {login}_brain_games
