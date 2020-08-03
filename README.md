@@ -1,4 +1,16 @@
 # python-project-lvl1
+#### Список команд для скачивания приложения:
+- создание окружения 
+  python3 -m venv test_even
+- проверить версию пип 
+  python3 -m pip --version
+- если pip ниже 19 версии, необходимо его обновить 
+  python3 -m pip install --upgrade --user pip
+- Установка пакета из Test Pypiс зависимостями promt(необходимы в поекте и отсутствут в Test Pypi) 
+  python3 -m pip install --user --index-url https://test.pypi.org/simple/ ana-ana-brain-games --extra-index-url https://pypi.org/simple/ prompt
+* если не сработала команда выше можно вручную указать последнюю версию приложени(перед установко проверить https://test.pypi.org/project/ana-ana-brain-games/) и ее установить
+  pip install -i https://test.pypi.org/simple/ ana-ana-brain-games==0.9.8 
+
 
 <a href="https://codeclimate.com/github/Ana-ana/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
@@ -59,17 +71,7 @@ Negative brain-prime:
 
 
 
-Список команд для скачивания приложения:
-- создание окружения 
-  python3 -m venv test_even
-- проверить версию пип 
-  python3 -m pip --version
-- если pip ниже 19 версии, необходимо его обновить 
-  python3 -m pip install --upgrade --user pip
-- Установка пакета из Test Pypiс зависимостями promt(необходимы в поекте и отсутствут в Test Pypi) 
-  python3 -m pip install --user --index-url https://test.pypi.org/simple/ ana-ana-brain-games --extra-index-url https://pypi.org/simple/ prompt
-* если не сработала команда выше можно вручную указать последнюю версию приложени(перед установко проверить https://test.pypi.org/project/ana-ana-brain-games/) и ее установить
-  pip install -i https://test.pypi.org/simple/ ana-ana-brain-games==0.9.8 
+
   
   
   
