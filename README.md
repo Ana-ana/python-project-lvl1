@@ -7,25 +7,25 @@
 
 #### Список команд для скачивания приложения:
 - создание окружения 
-  ```bash
-  python3 -m venv test_even
-  ```
+```bash
+python3 -m venv test_even
+```
 - проверить версию пип 
-  ```bash
-  python3 -m pip --version
-  ```
+```bash
+python3 -m pip --version
+```
 - если pip ниже 19 версии, необходимо его обновить 
-  ```bash
-  python3 -m pip install --upgrade --user pip
-  ```
+```bash
+python3 -m pip install --upgrade --user pip
+```
 - Установка пакета из Test Pypiс зависимостями promt(необходимы в поекте и отсутствут в Test Pypi) 
-  ```bash
-  python3 -m pip install --user --index-url https://test.pypi.org/simple/ ana-ana-brain-games --extra-index-url https://pypi.org/simple/ prompt
-  ```
+ ```bash
+ python3 -m pip install --user --index-url https://test.pypi.org/simple/ ana-ana-brain-games --extra-index-url https://pypi.org/simple/ prompt
+ ```
 * если не сработала команда выше можно вручную указать последнюю версию приложени(перед установко проверить https://test.pypi.org/project/ana-ana-brain-games/) и ее установить
-  ```bash
-  pip install -i https://test.pypi.org/simple/ ana-ana-brain-games==0.9.8 
-  ```
+```bash
+pip install -i https://test.pypi.org/simple/ ana-ana-brain-games==0.9.8 
+```
 
 
 
@@ -65,8 +65,8 @@ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://
 
 
 
-#### Video:
-# Installing package brain-even:
+# Video:
+#### Installing package brain-even:
 
 <a href="https://asciinema.org/a/5nmYyPPhCjAl9E6DreSiC9KrD" target="_blank"><img src="https://asciinema.org/a/5nmYyPPhCjAl9E6DreSiC9KrD.svg" /></a>
 
