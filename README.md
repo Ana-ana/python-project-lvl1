@@ -1,7 +1,15 @@
 # python-project-lvl1
+
+<a href="https://codeclimate.com/github/Ana-ana/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+
+[![Build Status](https://travis-ci.com/Ana-ana/python-project-lvl1.svg?branch=master)](https://travis-ci.com/Ana-ana/python-project-lvl1)
+
+
 #### Список команд для скачивания приложения:
 - создание окружения 
+  '''bash
   python3 -m venv test_even
+  '''
 - проверить версию пип 
   python3 -m pip --version
 - если pip ниже 19 версии, необходимо его обновить 
@@ -11,10 +19,6 @@
 * если не сработала команда выше можно вручную указать последнюю версию приложени(перед установко проверить https://test.pypi.org/project/ana-ana-brain-games/) и ее установить
   pip install -i https://test.pypi.org/simple/ ana-ana-brain-games==0.9.8 
 
-
-<a href="https://codeclimate.com/github/Ana-ana/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-
-[![Build Status](https://travis-ci.com/Ana-ana/python-project-lvl1.svg?branch=master)](https://travis-ci.com/Ana-ana/python-project-lvl1)
 
 Installing package brain-even:
 
