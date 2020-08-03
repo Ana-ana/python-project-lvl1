@@ -28,6 +28,7 @@
   ```
 
 
+
 #### Создание окружения для разработки.
 - Установка зависимостей: 
 ```bash
@@ -63,7 +64,8 @@ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://
 ```
 
 
-####Video:
+
+#### Video:
 # Installing package brain-even:
 
 <a href="https://asciinema.org/a/5nmYyPPhCjAl9E6DreSiC9KrD" target="_blank"><img src="https://asciinema.org/a/5nmYyPPhCjAl9E6DreSiC9KrD.svg" /></a>
