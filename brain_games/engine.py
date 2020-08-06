@@ -15,7 +15,7 @@ def game_launcher(game):
         question, result = game.generate_round()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
-        if str(result) != answer:
+        if result != answer:
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{result}'.")
             print(f"Let's try again, {name}!")
